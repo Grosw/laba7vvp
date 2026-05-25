@@ -9,4 +9,7 @@ add_executable(WeatherService main.cpp
         Service.cpp
         Service.h
         JsonService.cpp
-        JsonService.h)
+        JsonService.h
+        XmlService.cpp
+        XmlService.h
+        pugixml.cpp)
