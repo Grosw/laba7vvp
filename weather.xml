@@ -1,0 +1,12 @@
+<current>
+    <city id="548408" name="Киров">
+        <coord lon="49.6601" lat="58.5966"/>
+        <country>RU</country>
+    </city>
+    <temperature value="5.69" min="5.69" max="5.69" unit="celsius"/>
+    <wind>
+        <speed value="4.27" unit="m/s" name="Gentle Breeze"/>
+    </wind>
+    <clouds value="100" name="overcast clouds"/>
+    <weather number="501" value="дождь" icon="10d"/>
+</current>
