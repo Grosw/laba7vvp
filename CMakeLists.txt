@@ -5,4 +5,9 @@ set(CMAKE_CXX_STANDARD 20)
 
 add_executable(WeatherService main.cpp
         Weather.cpp
-        Weather.h)
+        Weather.h
+        Service.cpp
+        Service.h
+        XmlService.cpp
+        XmlService.h
+        pugixml.cpp)
