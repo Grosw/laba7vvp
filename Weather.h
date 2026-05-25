@@ -20,11 +20,11 @@ public:
           weather(weather), windSpeed(windSpeed), clouds(clouds) {}
 
     void printWeatherDescription() const {
-        std::cout << "Weather in " << city << " (Lat: " << lat << ", Lon: " << lon << "):" << std::endl;
-        std::cout << "  Temperature: " << temperature << "°C" << std::endl;
-        std::cout << "  Condition: " << weather << std::endl;
-        std::cout << "  Wind Speed: " << windSpeed << " m/s" << std::endl;
-        std::cout << "  Clouds: " << clouds << "%" << std::endl;
+        std::cout << "Погода в " << city << " (широта: " << lat << ", долгота: " << lon << "):" << std::endl;
+        std::cout << "  Температура: " << temperature << " °C" << std::endl;
+        std::cout << "  Описание: " << weather << std::endl;
+        std::cout << "  Скорость ветра: " << windSpeed << " м/с" << std::endl;
+        std::cout << "  Облачность: " << clouds << "%" << std::endl;
     }
 };
 
